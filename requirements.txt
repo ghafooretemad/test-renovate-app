@@ -42,5 +42,5 @@ psychrolib==2.5.0
     # via -r requirements.in
 pybase62==0.4.1
     # via aedifion-swop
-pydantic==1.10.16
+pydantic==1.10.17
     # via
