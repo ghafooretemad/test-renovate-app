@@ -3,5 +3,34 @@
   "extends": [
     "local>ghafooretemad/test-renovate-app:global"
   ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchManagers": [
+        "pip-compile",
+        "pip_requirements",
+        "pip_setup",
+        "pipenv",
+        "poetry",
+        "pyenv",
+        "setup-cfg"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "pin",
+        "patch",
+        "digest"
+      ],
+      "labels": [
+        "bot::renovate",
+        "update::minor",
+        "state::new"
+      ],
+      "groupName": null,
+      "groupSlug": null
+    }
 
+  ]
 }
