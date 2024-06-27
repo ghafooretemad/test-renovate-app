@@ -3,8 +3,12 @@
   "extends": [
     "local>ghafooretemad/test-renovate-app:global"
   ],
-  "fileMatch": [
+  "python":[
+    {
+      fileMatch": [
     "(^|/)[\\w-]*requirements([-.]\\w+)?\\.in$"
+  ]
+    }
   ],
   "packageRules": [
     {
