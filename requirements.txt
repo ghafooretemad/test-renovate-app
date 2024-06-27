@@ -8,7 +8,7 @@ aiofiles==23.2.1
     # via -r requirements.in
 aiohttp==3.7.4.post0
     # via aioresponses
-aiokafka==0.7.2
+aiokafka==0.10.0
     # via -r requirements.in
 aioresponses==0.7.4
     # via -r requirements.in
