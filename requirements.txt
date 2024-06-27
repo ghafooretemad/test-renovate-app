@@ -34,7 +34,7 @@ paho-mqtt==1.6.1
     # via asyncio-mqtt
 pamqp==3.2.1
     # via aiormq
-pint==0.17
+pint==0.24.1
     # via -r requirements.in
 prometheus-client==0.15.0
     # via -r requirements.in
