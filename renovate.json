@@ -5,7 +5,7 @@
   ],
   "fileMatch": [
     "(^|/)[\\w-]*requirements([-.]\\w+)?\\.in$"
-  ]
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": [
