@@ -3,5 +3,5 @@
   "extends": [
     "local>ghafooretemad/test-renovate-app:global"
   ],
-  "ignorePaths":["requirements.txt"]
+
 }
