@@ -36,7 +36,7 @@
   "pip_requirements": {
     "fileMatch":["requirements.in"]
   },
-  "pip_compile": {
+  "pip-compile": {
   "fileMatch":["requirements.txt"]
   }
 }
