@@ -33,7 +33,7 @@
     }
 
   ],
-  "pip_requirements":{
+  "pip_requirements": {
     "fileMatch":["requirements.in"]
   }
 }
