@@ -40,7 +40,7 @@ prometheus-client==0.15.0
     # via -r requirements.in
 psychrolib==2.5.0
     # via -r requirements.in
-pybase62==0.4.1
+pybase62==1.0.0
     # via aedifion-swop
 pydantic==1.10.16
     # via
