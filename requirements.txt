@@ -30,7 +30,7 @@ numpy==1.21.4
     # via -r requirements.in
 packaging==21.0
     # via pint
-paho-mqtt==2.1.0
+paho-mqtt==1.6.1
     # via asyncio-mqtt
 pamqp==3.2.1
     # via aiormq
