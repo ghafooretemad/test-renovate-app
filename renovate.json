@@ -23,7 +23,7 @@
         "pip-compile",
         "pip_requirements"
       ],
-      "reviewers": ["getemad_aedifion"]
+      "reviewers": ["@ghafooretemad"]
     },
     {
       "matchManagers":["npm"],
