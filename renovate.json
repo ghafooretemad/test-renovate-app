@@ -10,4 +10,37 @@
   "pip-compile": {
   "fileMatch":["requirements.txt"]
   }
+  ,
+  "packageRules": [
+    {
+      "matchManagers":[
+        "npm"
+      ],
+      "reviewers": ["@slecutiez_aedifion"]
+    },
+    {
+      "matchManagers":[
+        "pip-compile",
+        "pip_requirements"
+      ],
+      "reviewers": ["getemad_aedifion"]
+    },
+    {
+      "matchManagers":["npm"],
+      "matchUpdateTypes": [
+        "minor",
+        "pin",
+        "patch",
+        "digest"
+      ],
+      "labels": [
+        "bot::renovate",
+        "update::minor",
+        "state::new"
+      ],
+      "groupName": "npm dependencies (non-major)",
+      "groupSlug": "npm-non-major"
+
+    }
+  ],
 }
