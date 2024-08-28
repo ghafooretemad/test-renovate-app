@@ -4,7 +4,7 @@ pillow==10.3.0
 pydantic==1.10.16
 aio-pika==9.1.2
     # via -r requirements.in
-aiofiles==23.2.1
+aiofiles==24.1.0
     # via -r requirements.in
 aiohttp==3.7.4.post0
     # via aioresponses
