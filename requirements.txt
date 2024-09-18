@@ -1,7 +1,7 @@
 fastapi==0.109.1
 SQLAlchemy==1.4.52
 pillow==10.3.0
-pydantic==1.10.16
+pydantic==2.9.2
 aio-pika==9.1.2
     # via -r requirements.in
 aiofiles==23.2.1
