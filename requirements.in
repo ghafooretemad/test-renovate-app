@@ -1,4 +1,4 @@
-fastapi==0.103.0
-SQLAlchemy==1.4.0
-pillow==7.1.2
-pydantic==2.7.3
+fastapi==0.115.3
+SQLAlchemy==1.4.54
+pillow==7.2.0
+pydantic==2.9.2
